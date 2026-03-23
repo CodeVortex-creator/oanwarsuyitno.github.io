@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -143,9 +143,11 @@
     padding: 0 15px;
   }
 }
+
 .section {
   padding: 60px 20px;
 }
+/* HERO */
     .hero {
       text-align: center;
       padding: 10px 10px;
@@ -174,7 +176,55 @@
       border-radius: 20px;
     }
     /* PROBLEM */
+.box {
+      width: 300px;
+      background-color: #2b2b2b;
+      color: white;
+      padding: 20px;
+      margin: 50px auto;
+      border-radius: 10px;
+      text-align: left;
+      max-width: 300px;
+      width: 100%;
+    }
+    ul {
+  list-style: none;
+  padding: 0;
+}
 
+li {
+  background: gray;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 8px;
+}
+}
+.problem-list {
+  list-style: none;
+  padding: 0;
+}
+
+.problem-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.icon-x {
+  background: #ef4444; /* merah */
+  color: white;
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+/* FEATURE */
 .checklist {
   max-width: 600px;
   margin: 0 auto;
@@ -300,7 +350,7 @@
    </p>
    
    <a href="https://wa.me/6285624261831?text=halo20%saya%tertarik%pesan%landingpagenya"
-   class="cta"target"blank">
+   class="cta"target"_blank">
    🔥Pesan Sekarang
    </a>
    
@@ -310,22 +360,73 @@
    </section>
      <!-- PROBLEM -->
       <section class="section section hidden"> 
-     <h2>Punya Produk / Jasa, Tapi Online-nya Gitu-Gitu Aja?</h2>
-     <ul>
-       <li>Jualan cuma lewat Whatsapp & IG bio </li>
-       <li>Calon klien nanya terus tapi nggak jadi</li>
-       <li>Website mahal,ribet dan kebanyakan fitur nggak kepakai</li>
-       <li>Mau terlihat profesional tapi budget terbatas</li>
-     </ul>
+     <h2>Punya produk / jasa, tapi online-nya gitu-gitu aja</h2>
      <div class="box">
-       <strong>Landing page yang tepat bisa jadi pembeda</strong><br>antara ditanya doang dan dibayar beneran<br>
-       
-       Dengan <strong>300 ribu</strong>,kamu dapat landingpage profesional dengan fokus convert,bukan cuma kelihatan "estetik"
-     </div>
+       <p>Jualan hanya lewat story whatsapp & ig</p>
+      <ul class="problem-list">
+  <li>
+    <span class="icon-x">✕</span>
+    <span>Jangkauan terbatas follower</span>
+  </li>
+  <li>
+    <span class="icon-x">✕</span>
+    <span>Data customer susah dikumpulkan</span>
+  </li>
+  <li>
+    <span class="icon-x">✕</span>
+    <span>Informasi berantakan</span>
+  </li>
+  <li>
+    <span class="icon-x">✕</span>
+    <span>Tidak scalabel</span>
+  </li>
+</ul>
+       </div>
+     </section>
+     <!--SOLUTION-->
+     <section class="section section hidden">
+       <h2>
+         Manfaat punya landingpage
+       </h2>
+       <ul class="checklist">
+  <li>
+    <span class="icon">✔</span>
+    <span>Semua informasi ada di satu tempat</span>
+  </li>
+  <li>
+    <span class="icon">✔</span>
+    <span>Alur jualan jadi jelas<span>
+  </li>
+  <li>
+    <span class="icon">✔</span>
+    <span>Meningkatkan kepercayaan</span>
+  </li>
+  <li>
+    <span class="icon">✔</span>
+    <span>Bisa dipakai buat iklan</span>
+  </li>
+    <li>
+    <span class="icon">✔</span>
+    <span>Bisa kumpulkan data pelanggan</span>
+  </li>
+    <li>
+    <span class="icon">✔</span>
+    <span>Jualan 24 jam tanpa kamu standby</span>
+  </li>
+    <li>
+    <span class="icon">✔</span>
+    <span>lebih scalable</span>
+  </li>
+</ul>
+          <a href="https://wa.me/6285624261831?text=halo20%saya%tertarik%pesan%landingpagenya"
+   class="cta"target"_blank">
+   🔥Pesan Sekarang
+   </a>
      </section>
      <!--FEATURES-->
-     <section class="features section hidden">
+     <section class="section section hidden">
        <h2>Apa yang kamu dapat</h2>
+       <div class="box">
 <ul class="checklist">
   <li>
     <span class="icon">✔</span>
@@ -344,6 +445,7 @@
     <span>Struktur fokus konversi</span>
   </li>
 </ul>
+</div>
        <p style="opacity: 0.8;">
          Tanpa biaya aneh-aneh,Tanpa langganan tersembunyi<br>
          Hidup sudah cukup berat
@@ -443,4 +545,4 @@ faqItems.forEach(item => {
 </body>
  
  </html>
-  
+ 
